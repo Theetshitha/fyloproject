@@ -333,6 +333,320 @@ button:hover{
         cursor: pointer;
     }
 }
+
+@media(max-width:425px){
+    body{
+        width: 100%;    
+    }
+
+    .main{
+        width: 90%;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 150px;
+        
+    }
+    .navbar img{
+        width: 80px;
+    }
+    
+    .navbar ul{ 
+        gap: 10px;
+    }
+    
+    .home1{
+        margin-top: 5%;
+        width:100% ;
+        background-image: none;
+    
+    }
+    .page1{
+    
+        width: 95%; 
+        display: flex;
+        justify-content:center;
+       flex-direction: column-reverse;
+        align-items: center;
+        margin: 3%;
+        padding-bottom: 15%; 
+        /* padding-left: 4%; */
+        /* padding-top: 8%; */
+      
+    }
+    
+    .page1-inner{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .page1-img1{
+        width: 100%;
+        text-align: center;
+    }
+    .page1-img1 img{
+        width: 80%;
+    }
+    
+    
+    .page1-inner h1 {
+        font-size: 24px;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .page1-inner p {
+        width: 104%;
+        line-height: 30px;
+        text-align: center;
+    }
+    .page1-inner form{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+        gap: 20px;
+    }
+    
+    .page1-inner input{
+        width: fit-content;
+        padding: 8% 40%;
+    }
+  
+    .page1-inner button{
+      
+        width: fit-content;
+        padding: 8% 70%;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        font-weight: bold;
+       
+        border: none;
+    }
+    
+    .home2{
+    
+        width:100% ;
+        background-image: url(bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    .page2{
+       
+        width: 95%; 
+        display: flex;
+        justify-content:center;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 3%;
+        padding-bottom: 8%; 
+        /* padding-left: 4%; */
+        /* padding-top: 8%; */
+      
+    }
+    
+    .page2-inner{
+        width: 90%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .page2-img1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4%;
+    
+    }
+    .page2-img1 img{
+        width: 80%;
+        margin-bottom: 4%;
+    
+    }
+    .page2-inner h1 {
+       text-align: center;
+       font-size: 19px;
+        margin-bottom: 9%;
+        width: 100%;
+    
+    }
+    .page2-inner p {
+        width: 107%;
+        margin-bottom: 4%;
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 4%;
+      }
+    
+    .page2-inner span{
+       color:hsl(170, 45%, 43%);
+       text-decoration-line:underline;
+       text-align: center;
+       margin-top: 10%;
+    }
+    
+    .page2-middle{
+        padding-left: 4%;
+        box-sizing: border-box;
+        width: 90%;
+        height: fit-content;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+       
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        margin-bottom: 15%;
+    }
+    .page2-author{
+        display: flex;
+        gap: 5px;
+        justify-content: space-around;
+        align-items: center;
+       
+        width: 100%;
+        height: 10%;
+    }
+    .page2-middle p {
+        width: 90%;
+        text-align: justify;
+
+    }
+    .page2-author1 img{
+        width: 80%;
+        object-fit: cover;
+        border-radius:50%;
+    }
+    .page2-author2 {
+        width: 100%;
+       
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    
+    .footer-nav1{
+        display: flex;
+         align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        gap: 0px;
+       
+        
+        color: white;
+        background-color:  hsla(240, 22%, 44%, 0.89);
+       
+    }
+    .footer-nav1-1{
+        width: 50%;
+        margin:5%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .footer-nav1-1 h2{
+        width: 150%;
+      
+        
+    }
+    
+    .footer-nav1-1 p {
+        width: 169%;
+    }
+    
+    .footer-nav1-2 form{
+        width: 80%;
+        margin-bottom: 20%;
+    }
+    .footer-nav1-2 {
+        width: 80%;
+        display: flex;
+        align-items: center;
+      
+        
+    }
+   
+  
+    .footer-nav1-2 input {
+        width: fit-content;
+        padding: 4% 26%;
+    }
+    
+    .footer-nav1-2 button {
+        
+        width:fit-content;
+        padding: 4% 37%;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10%;
+        border: none;
+    }
+    .footer-nav2{
+        display: flex;
+        align-items: flex-start;
+        justify-content:space-around;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+        background-color:  hsl(243, 87%, 12%);
+      
+    }
+    .footer-nav2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer-nav2-1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 60%;
+        margin:10%;  
+    }
+    .footer-nav2-2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 60%;
+        margin:10%;  
+    }
+    .footer-nav2-3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 60%;
+        margin:10%; 
+        margin-top: 2%; 
+    }
+     .footer-nav2-4{
+       
+        gap: 10px;
+      
+        width: 22%;
+        margin:0%;
+        padding-left: 37%;
+        padding-bottom: 15%;
+       
+    }
+    button:hover{
+        background-color: rgba(56, 156, 250, 0.705);
+        color: white;
+        cursor: pointer;
+    }
+   
+}
 @media(max-width:375px){
     body{
         width: 100%;    
